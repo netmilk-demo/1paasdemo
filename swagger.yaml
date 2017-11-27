@@ -108,10 +108,13 @@ definitions:
   NewPet:
     required:
       - name
+      - oneMoreField
     properties:
       name:
         type: string
       color:
+        type: string
+      oneMoreField:
         type: string
   Error:
     required:
